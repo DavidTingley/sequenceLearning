@@ -32,5 +32,3 @@ RUN echo "source $VENV/bin/activate" >> .bashrc
 
 WORKDIR /home/docker/packages
 RUN git clone https://github.com/DavidTingley/sequenceLearning
-
-WORKDIR /home/docker/packages/papers/sequenceLearning
